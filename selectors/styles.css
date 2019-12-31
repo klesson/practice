@@ -1,5 +1,5 @@
 .block {
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     border: 1px solid black;
     width: 300px;
     margin: auto;
@@ -9,4 +9,8 @@
     font-size: 20px;
     color: cornsilk;
     margin-bottom: 8px;
+}
+
+selector {
+	background-color: violet;
 }
