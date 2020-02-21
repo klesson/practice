@@ -1,0 +1,46 @@
+img {
+    display: block;
+    width: 200px;
+    position: relative;
+    animation-name: run;
+    animation-iteration-count: infinite;
+}
+
+img:nth-child(1) {
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+img:nth-child(2) {
+    animation-duration: 10s;
+}
+
+img:nth-child(3) {
+    animation-duration: 20s;
+}
+
+img:hover {
+    animation-play-state: paused;
+}
+
+@keyframes run {
+    0% {
+        left: 0;
+        transform: none;
+    }
+    25% {
+        transform: skew(-18deg);
+    }
+
+    45% {
+        transform: rotateY(0deg);
+    }
+    
+    50% {
+        left: calc(100% - 200px);
+        transform: rotateY(180deg);
+    }
+    100% {
+        left: 0;
+    }
+}

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    /* внешние отступы */
+    padding: 0;
+    /* внутренние отступы */
+}
+
+.container {
+    width: 100px;
+    /* ширина элемента */
+    padding-top: 100px;
+    /* внутренние отступы сверху */
+    margin: 0 auto;
+    /* центрируем элемент внешними отсутупами */
+}
+
+div>div {
+    display: inline-block;
+    /* устанавливаем вложенные элементы <div> как блочно-строчные (выстраиваем в линейку) */
+    width: 10px;
+    /* ширина элемента */
+    height: 10px;
+    /* высота элемента */
+    margin: 0 auto;
+    /* центрируем элементы внешними отсутупами */
+    border-radius: 50px;
+    /* определяем форму углов */
+}
+
+.item:nth-child(1) {
+    background: orange;
+    /* цвет заднего фона */
+    animation: up 1s linear 1s infinite;
+    /* name duration timing-function delay iteration-count */
+}
+
+.item:nth-child(2) {
+    background: violet;
+    /* цвет заднего фона */
+    animation: up 1s linear 1.2s infinite;
+    /* name duration timing-function delay iteration-count */
+}
+
+.item:nth-child(3) {
+    background: magenta;
+    /* цвет заднего фона */
+    animation: up 1s linear 1.4s infinite;
+    /* name duration timing-function delay iteration-count */
+}
+
+.item:nth-child(4) {
+    background: lightseagreen;
+    /* цвет заднего фона */
+    animation: up 1s linear 1.6s infinite;
+    /* name duration timing-function delay iteration-count */
+}
+
+.item:nth-child(5) {
+    background: forestgreen;
+    /* цвет заднего фона */
+    animation: up 1s linear 1.8s infinite;
+    /* name duration timing-function delay iteration-count */
+}
+
+@keyframes up {
+    0%,
+    100% {
+        /* начало и конец цикла анимации */
+        transform: translateY(-15px);
+        /* сдвиг элемента по оси Y */
+    }
+    50% {
+        /* середина анимации */
+        transform: translate(5px, 0);
+        /* сдвиг элемента на 5px по оси X, по оси Y сдвиг отсутствует */
+    }
+}
