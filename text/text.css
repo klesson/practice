@@ -1,0 +1,43 @@
+.big {
+    font-size: large;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.small {
+    font-size: small;
+}
+
+.green {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.google-fonts {
+    font-family: 'Pacifico', cursive;
+}
