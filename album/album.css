@@ -1,0 +1,40 @@
+.album {
+    max-width: 600px;
+    margin: auto;
+    border: 1px black solid;
+}
+
+.header {
+    background-color: orange;
+    text-align: right;
+    padding: 20px 50px;
+    border-bottom: 5px solid green;
+    font-size: 1.5rem;
+}
+
+.photo {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin: 0 20px;
+    bottom: 38px;
+}
+.photo img {
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 2px 4px 7px 0px rgba(0,0,0,0.5);
+}
+
+.track-list {
+    display: inline-block;
+    padding: 20px;
+}
+
+.track {
+    margin-bottom: 12px;
+}
+
+.track .title {
+    margin: 8px;
+}
